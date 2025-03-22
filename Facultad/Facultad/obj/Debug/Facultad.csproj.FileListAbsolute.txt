@@ -1,0 +1,10 @@
+C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\bin\Debug\Facultad.exe.config
+C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\bin\Debug\Facultad.exe
+C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\bin\Debug\Facultad.pdb
+C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.AssemblyReference.cache
+C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.Form1.resources
+C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.Properties.Resources.resources
+C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.GenerateResource.cache
+C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.CoreCompileInputs.cache
+C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.exe
+C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.pdb

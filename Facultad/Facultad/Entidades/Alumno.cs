@@ -16,15 +16,11 @@ namespace Negocio
         public int Codigo { get => _codigo; set => _codigo = value; }
 
         // METODOS
-        public override string GetCredencial()
+        protected override void GetCredencial()
         {
-            return string.Format("Código {0}) {1}, {2}", this._codigo, this.Apellido, this.Nombre);
+
         }
 
-        public string toString()
-        {
-            return GetCredencial();
-        }
 
     }
 }

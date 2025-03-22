@@ -32,6 +32,8 @@ namespace Facultad
             this.label1 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.btnSaludar = new System.Windows.Forms.Button();
+            this.lstAlumnos = new System.Windows.Forms.ListBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label1
@@ -52,7 +54,7 @@ namespace Facultad
             // 
             // btnSaludar
             // 
-            this.btnSaludar.Location = new System.Drawing.Point(153, 179);
+            this.btnSaludar.Location = new System.Drawing.Point(343, 162);
             this.btnSaludar.Name = "btnSaludar";
             this.btnSaludar.Size = new System.Drawing.Size(75, 23);
             this.btnSaludar.TabIndex = 2;
@@ -60,11 +62,28 @@ namespace Facultad
             this.btnSaludar.UseVisualStyleBackColor = true;
             this.btnSaludar.Click += new System.EventHandler(this.btnSaludar_Click);
             // 
+            // lstAlumnos
+            // 
+            this.lstAlumnos.FormattingEnabled = true;
+            this.lstAlumnos.Location = new System.Drawing.Point(269, 267);
+            this.lstAlumnos.Name = "lstAlumnos";
+            this.lstAlumnos.Size = new System.Drawing.Size(120, 95);
+            this.lstAlumnos.TabIndex = 3;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(128, 127);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.lstAlumnos);
             this.Controls.Add(this.btnSaludar);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label1);
@@ -80,6 +99,8 @@ namespace Facultad
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Button btnSaludar;
+        private System.Windows.Forms.ListBox lstAlumnos;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 

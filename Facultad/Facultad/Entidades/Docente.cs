@@ -9,17 +9,7 @@ namespace Negocio
 {
     public class Docente : Empleado
     {
-        public override string GetNombreCompleto()
-        {
-            return string.Format("Docent {0}", this.Nombre);
-        }
 
-        public string toSting()
-        {
-            return GetNombreCompleto();
-        }
-        public Docente(int legajo, string nombre, string apellido, DateTime fechaNacimiento, DateTime fechaIngreso) : base(legajo, nombre, apellido, fechaNacimiento, fechaIngreso)
-        {
-        }
+
     }
 }

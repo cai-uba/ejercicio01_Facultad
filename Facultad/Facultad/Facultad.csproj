@@ -53,11 +53,17 @@
     <Compile Include="Entidades\Empleado.cs" />
     <Compile Include="Entidades\Facultad.cs" />
     <Compile Include="Entidades\Persona.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="FormInicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormInicio.Designer.cs">
+      <DependentUpon>FormInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="FormAlumnos.cs">
       <SubType>Form</SubType>
@@ -65,10 +71,23 @@
     <Compile Include="FormAlumnos.Designer.cs">
       <DependentUpon>FormAlumnos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPersonal.Designer.cs">
+      <DependentUpon>FormPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Persistencia\PersistenciaUtils.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormAlumnos.resx">
+      <DependentUpon>FormAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInicio.resx">
+      <DependentUpon>FormInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,6 +98,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Datos\alumnos.csv" />
+    <None Include="Datos\credenciales.csv" />
+    <None Include="Datos\personal.csv" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -92,5 +114,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

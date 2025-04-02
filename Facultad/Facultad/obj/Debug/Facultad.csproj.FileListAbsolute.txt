@@ -8,3 +8,16 @@ C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\
 C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.CoreCompileInputs.cache
 C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.exe
 C:\Users\zaval\OneDrive\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.pdb
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\bin\Debug\Facultad.exe.config
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\bin\Debug\Facultad.exe
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\bin\Debug\Facultad.pdb
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.AssemblyReference.cache
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.SuggestedBindingRedirects.cache
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.FormAlumnos.resources
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.FormInicio.resources
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.FormMenu.resources
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.Properties.Resources.resources
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.GenerateResource.cache
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.CoreCompileInputs.cache
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.exe
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.pdb

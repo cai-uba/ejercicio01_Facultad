@@ -14,12 +14,14 @@ namespace Facultad
 {
     public partial class FormInicio : Form
     {
+        PersistenciaUtils persistenciaUtils = new PersistenciaUtils();
+
         public FormInicio()
         {
             InitializeComponent();
         }
 
-        private void btnSaludar_Click(object sender, EventArgs e)
+        private void btnIngresar_Click(object sender, EventArgs e)
         {
             // 1) Validaciones
 
@@ -43,7 +45,6 @@ namespace Facultad
 
         private List<String> obtenerUsuarios()
         {
-            PersistenciaUtils persistenciaUtils = new PersistenciaUtils();
             List<String> listado = persistenciaUtils.LeerRegistro("credenciales.csv");
 
             return listado;

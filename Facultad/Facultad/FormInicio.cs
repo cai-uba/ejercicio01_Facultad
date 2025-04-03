@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Facultad.Persistencia;
+using Negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,9 +21,8 @@ namespace Facultad
 
         private void btnSaludar_Click(object sender, EventArgs e)
         {
-
             // 1) Validaciones
-            
+
             // 1.1) Validaciones de integridad de datos
 
             // 1.) Validaciones de negocio
@@ -38,6 +39,14 @@ namespace Facultad
             this.Hide();
             FormMenu formMenu = new FormMenu();
             formMenu.ShowDialog();
+        }
+
+        private List<String> obtenerUsuarios()
+        {
+            PersistenciaUtils persistenciaUtils = new PersistenciaUtils();
+            List<String> listado = persistenciaUtils.LeerRegistro("credenciales.csv");
+
+            return listado;
         }
 
     }

@@ -1,0 +1,103 @@
+Código;Materia;Semanal;Total;Práctica;Requisitos Previos;idCarrera
+241;Análisis Matemático I;6;108;;;3, 1, 4, 5, 2
+242;Economía;4;72;;;3, 1, 4, 5, 2
+243;Sociología;4;72;;;3, 1, 4, 5, 2
+244;Metodología de las Ciencias Sociales;4;72;;;3, 1, 4, 5, 2
+245;Álgebra;4;72;;;3, 1, 4, 5, 2
+246;Historia Económica y Social General;4;72;;;3, 1, 4, 5, 2
+247;Teoría Contable;6;108;;Primer Tramo;3, 1, 4, 5, 2
+248;Estadística I;6;108;;241;3, 1, 4, 5, 2
+249;Historia Económica y Social Argentina;4;72;;242, 244, 246;3, 1, 4, 5, 2
+250;Microeconomía I;4;72;;241, 242;3, 1, 5, 2
+251;Instituciones de Derecho Público;4;72;;;3, 1, 2
+252;Administración General;4;72;;;3, 1, 5, 2
+261;Teoría Política y Derecho Público;4;72;;;4
+262;Macroeconomía I;6;108;;241, 242;4
+284;Análisis Matemático II;6;108;;241, 245;4, 2
+1275;Introducción a la Tecnología de la Información y las Comunicaciones;4;72;;;5
+301;Instituciones de Derecho Privado;4;72;;;1
+302;Sistemas Administrativos;4;72;;;1
+303;Tecnología de la Información;4;72;;;1
+304;Cálculo Financiero;6;108;;;1
+305;Gestión y Costos;6;108;;;1
+306;Administración Financiera;4;72;;;1
+307;Dirección General;4;72;;;1
+308;Comercialización;4;72;;;1
+309;Planeamiento y Control de Gestión;4;72;;;1
+310;Administración Estratégica;4;72;;;1
+401;Poder Económico y Derechos Humanos;4;72;;;1
+402;Administración de la Salud;4;72;;;1
+403;Logística Comercial;4;72;;;1
+404;Creatividad e Innovación en las Organizaciones;4;72;;;1
+405;Administración Pública;4;72;;;1
+500;Seminario de Integración y Aplicación;4;72;;;1
+274;Sistemas Administrativos;4;72;;252;5
+276;Cálculo Financiero;4;72;;248;5
+277;Gestión y Costos;6;108;;247;5
+278;Macroeconomía y Política Económica;6;108;;;5
+279;Administración Financiera;6;108;;276;5
+452;Sociología de la Organización;4;72;;252;5
+457;Teoría de la Decisión;6;108;;277;5
+651;Lógica;4;72;;1275;5
+655;Tecnología de las Comunicaciones;4;72;;1653;5
+657;Sistemas de Datos;4;72;;651;5
+658;Metodología de los Sistemas de Información;6;108;;1275;5
+740;Redes Informáticas;4;72;;655;5
+1601;Ingeniería en Software;4;72;;1275;5
+1603;Derecho Informático I;4;72;;;5
+1604;Derecho Informático II;6;108;;1603;5
+1652;Teoría de los Lenguajes y Algoritmos;4;72;;651;5
+1653;Tecnología de los Computadores y Sistemas Operativos;6;108;;1275;5
+1654;Construcción de Aplicaciones Informáticas;4;72;;1652;5
+1659;Auditoría y Seguridad de los Sistemas de Información;6;108;;657 y 658;5
+1660;Actuación Profesional del Licenciado;;;;;5
+283;Macroeconomía II;6;108;;262, 288;4
+285;Estadística II;6;108;;248, 284;4
+286;Microeconomía II;6;108;;288, 290;4
+288;Matemática para Economistas;6;108;;284;4
+289;Epistemología de la Economía;2;36;;244, 262, 290;4
+290;Microeconomía I (para Economistas);6;108;;242, 284;4
+551;Econometría;6;108;;285, 288;4
+552;Dinero, Crédito y Bancos;6;108;;283, 286, 288;4
+553;Historia del Pensamiento Económico;4;72;;243, 244, 262, 290;4
+554;Crecimiento Económico;4;72;;283, 286, 288;4
+555;Organización Industrial;4;72;;286;4
+556;Finanzas Públicas;4;72;;261, 290;4
+557;Estructura Social Argentina;2;36;;243, 249, 561;4
+558;Economía Internacional;4;72;;283, 290;4
+559;Desarrollo Económico;4;72;;557, 560;4
+560;Estructura Económica Argentina;2;36;;561;4
+561;Cuentas Nacionales;6;108;;247, 262;4
+562;Seminario de Integración y Aplicación;2;36;;286, 289, 551, 558;4
+721;Poder Económico y Derechos Humanos;4;72;;558, 559;4
+724;Economía de la Seguridad Social;4;72;;286, 556;4
+273;Instituciones de Derecho Privado;4;72;;1359;3
+274;Sistemas Administrativos;4;72;;252;3
+275;Tecnología de la Información;6;108;;274;3
+276;Cálculo Financiero;4;72;;248;3
+278;Macroeconomía y Política Económica;6;108;;;3
+279;Administración Financiera;6;108;;276;3
+351;Sistemas Contables;6;108;;247;3
+353;Sistemas de Costos;4;72;;247;3
+354;Derecho del Trabajo y la Seguridad Social;4;72;;251, 1359;3
+355;Auditoría;6;108;;362, 1352;3
+356;Teoría y Técnica Impositiva I;6;108;;251, 1352;3
+357;Teoría y Técnica Impositiva II;6;108;;356;3
+362;Gestión y Costos para Contadores;6;108;;353;3
+1330;Contabilidad Social y Ambiental;2;36;;1352;3
+1352;Contabilidad Financiera;6;108;;351, 353;3
+1359;Derecho Económico;4;72;;;3
+1360;Derecho Crediticio, Bursátil e Insolvencia;4;72;;273, 354;3
+1374;Contabilidad Gubernamental y Control de Gestión;4;72;;278, 1352;3
+273;Instituciones del Derecho Privado;4;72;;;2
+274;Sistemas Administrativos;4;72;;252;2
+275;Tecnología de la Información;6;108;;274;2
+276;Cálculo Financiero;4;72;;248;2
+277;Gestión y Costos;6;108;;247;2
+278;Macroeconomía y Política Económica;6;108;;250;2
+279;Administración Financiera;6;108;;252, 276;2
+284;Análisis Matemático II;6;108;;241, 245;2
+285;Estadística II;6;108;;248, 284;2
+288;Matemática para Economistas;6;108;;284;2
+1721;Economía del Comportamiento;4;72;;;2
+701;Analítica de Datos (vigente en 2025);4;72;;;1, 2, 3, 4, 5

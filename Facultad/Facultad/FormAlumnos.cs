@@ -1,4 +1,5 @@
-﻿using Facultad.Persistencia;
+﻿using Facultad.Entidades;
+using Facultad.Persistencia;
 using Negocio;
 using System;
 using System.Collections.Generic;

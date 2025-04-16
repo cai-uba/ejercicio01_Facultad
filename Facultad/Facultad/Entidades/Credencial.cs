@@ -17,10 +17,10 @@ namespace Facultad.Entidades
         public Credencial(string registro)
         {
             String[] datos = registro.Split(';');
-            this.Usuario = datos[0];
-            this.Password = datos[1];
-            this.FechaAlta = DateTime.ParseExact(datos[2], "d/M/yyyy", CultureInfo.InvariantCulture);
-            this.FechaUltimoIngreso = DateTime.ParseExact(datos[3], "d/M/yyyy", CultureInfo.InvariantCulture);
+            this.Usuario = datos[1];
+            this.Password = datos[2];
+            this.FechaAlta = DateTime.ParseExact(datos[3], "d/M/yyyy", CultureInfo.InvariantCulture);
+            this.FechaUltimoIngreso = DateTime.ParseExact(datos[4], "d/M/yyyy", CultureInfo.InvariantCulture);
 
         }
 

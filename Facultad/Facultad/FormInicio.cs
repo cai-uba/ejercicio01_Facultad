@@ -16,8 +16,7 @@ namespace Facultad
 {
     public partial class FormInicio : Form
     {
-        PersistenciaUtils persistenciaUtils = new PersistenciaUtils();
-
+        
         public FormInicio()
         {
             InitializeComponent();
@@ -126,11 +125,19 @@ namespace Facultad
 
         private List<Credencial> obtenerCredenciales()
         {
+            PersistenciaUtils persistenciaUtils = new PersistenciaUtils();
+
             List<String> listado = persistenciaUtils.LeerRegistro("credenciales.csv");
             List<Credencial> listadoCredenciales = new List<Credencial>();
 
+            int contador = 0;
             foreach (String registro in listado)
             {
+                if(contador == 0)
+                {
+                    contador++;
+                    continue;
+                }
                 Credencial credencial = new Credencial(registro);
                 listadoCredenciales.Add(credencial);
             }

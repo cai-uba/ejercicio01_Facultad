@@ -48,11 +48,14 @@
   <ItemGroup>
     <Compile Include="Entidades\Alumno.cs" />
     <Compile Include="Entidades\Bedel.cs" />
+    <Compile Include="Entidades\Carrera.cs" />
     <Compile Include="Entidades\Credencial.cs" />
     <Compile Include="Entidades\Directivo.cs" />
     <Compile Include="Entidades\Docente.cs" />
     <Compile Include="Entidades\Empleado.cs" />
-    <Compile Include="Entidades\Facultad.cs" />
+    <Compile Include="Entidades\Examen.cs" />
+    <Compile Include="Entidades\Materia.cs" />
+    <Compile Include="Entidades\Universidad.cs" />
     <Compile Include="Entidades\Persona.cs" />
     <Compile Include="FormInicio.cs">
       <SubType>Form</SubType>
@@ -78,6 +81,12 @@
     <Compile Include="FormPersonal.Designer.cs">
       <DependentUpon>FormPersonal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReportes.Designer.cs">
+      <DependentUpon>FormReportes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Persistencia\PersistenciaUtils.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +99,9 @@
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormReportes.resx">
+      <DependentUpon>FormReportes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -100,7 +112,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="Datos\alumnos.csv" />
+    <None Include="Datos\carreras.csv" />
     <None Include="Datos\credenciales.csv" />
+    <None Include="Datos\examenes.csv" />
     <None Include="Datos\materias.csv" />
     <None Include="Datos\personal.csv" />
     <None Include="Properties\Settings.settings">

@@ -16,6 +16,7 @@ C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Deb
 C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.FormAlumnos.resources
 C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.FormInicio.resources
 C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.FormMenu.resources
+C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.FormReportes.resources
 C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.Properties.Resources.resources
 C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.GenerateResource.cache
 C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.CoreCompileInputs.cache

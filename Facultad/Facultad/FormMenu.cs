@@ -30,5 +30,12 @@ namespace Facultad
             FormPersonal formAlumnos = new FormPersonal();
             formAlumnos.ShowDialog();
         }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormReportes formReportes = new FormReportes();
+            formReportes.ShowDialog();
+        }
     }
 }
